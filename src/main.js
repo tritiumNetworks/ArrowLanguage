@@ -37,6 +37,7 @@ clsBtn.addEventListener('click', () => {
 runBtn.addEventListener('click', () => {
   let point = 0
   const src = script.value
+  memory.length = 0
 
   const blocks =
     src
